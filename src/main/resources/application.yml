@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: post
+    name: post_server_example
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://mysql-container:3306/example_db?autoReconnect=true&useUnicode=true&serverTimezone=Asia/Seoul"
+    url: "jdbc:mysql://localhost:3306/human_db?autoReconnect=true&useUnicode=true&serverTimezone=Asia/Seoul"
     username: hsw
     password: hsw
   jpa:
